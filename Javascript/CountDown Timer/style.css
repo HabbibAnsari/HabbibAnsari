@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/nyc.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* background-size: 1920px 1080px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Ubuntu Mono", monospace;
+    margin-top: 10px;
+    min-height: 100vh;
+    
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    /* margin-top: 0 auto; */
+    color: white;
+    margin-top: -.3em;
+    margin-bottom: 0em;
+
+}
+
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1 ;
+    color: white;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+    color: honeydew;
+}
+
+@media  (max-width: 550px) {
+    body {
+      background-size: cover;
+      margin: -20px;
+      justify-content: center;
+      width: 100%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .big-text{
+        font-size: 2.9rem;
+        line-height: 1 ;
+    }
+  }
